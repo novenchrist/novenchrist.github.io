@@ -1,0 +1,45 @@
+.bg-secondary {
+    background-color: #5a07a7 !important;
+}
+
+.border-succes {
+    color: bisque !important;
+}
+
+.jumbotron {
+    background-color: #efeaf3;
+    border: none;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+#projects {
+    background-color: #efeaf3;
+}
+
+p {
+    margin-top: 2px;
+}
+
+h2 {
+    padding-top: 3.5rem;
+}
+
+#jumbotron {
+    padding-top: 2rem;
+}
+#contact {
+    background-color: #7eacdd;
+}
+span {
+    font-weight: bold;
+}
+footer {
+    padding: 1rem;
+}
