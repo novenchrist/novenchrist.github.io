@@ -7,7 +7,6 @@
 }
 
 .jumbotron {
-    background-color: #efeaf3;
     border: none;
 }
 
@@ -32,6 +31,7 @@ h2 {
 }
 
 #jumbotron {
+    background-color: #efeaf3;
     padding-top: 2rem;
 }
 #contact {
@@ -42,4 +42,11 @@ span {
 }
 footer {
     padding: 1rem;
+}
+#gallery img {
+    height: 300px;
+    width: 100%;
+}
+#gallery .row > * {
+    padding: 0;
 }
