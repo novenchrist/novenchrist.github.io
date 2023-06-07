@@ -37,6 +37,9 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#my-cars">My cars</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
@@ -180,6 +183,54 @@
         </div>
       </div>
     </div>
+    <!-- my cars -->
+    <section id="my-cars">
+      <div class="container text-center">
+        <div class="row mb-3">
+          <div class="col">
+            <h2>My Cars</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="">
+            <div class="car-box">
+              <h4 class="car-name text-light">Ferrari</h4>
+              <img src="mycars/1.png" alt="Ferrari" class="car-img">
+              <a href="#" class="btn btn-primary detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="50">
+            <div class="car-box">
+              <h4 class="car-name text-light">Ferrari</h4>
+              <img src="mycars/2.png" alt="Ferrari" class="car-img">
+              <a href="#" class="btn btn-primary detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
+            <div class="car-box">
+              <h4 class="car-name text-light">Ferrari</h4>
+              <img src="mycars/3.png" alt="Ferrari" class="car-img">
+              <a href="#" class="btn btn-primary detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="150">
+            <div class="car-box">
+              <h4 class="car-name text-light">Ferrari</h4>
+              <img src="mycars/4.png" alt="Ferrari" class="car-img">
+              <a href="#" class="btn btn-primary detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">
+            <div class="car-box">
+              <h4 class="car-name text-light">Ferrari</h4>
+              <img src="mycars/5.png" alt="Ferrari" class="car-img">
+              <a href="#" class="btn btn-primary detail-button">Show Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir my cars -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#7eacdd" fill-opacity="1"
         d="M0,192L48,181.3C96,171,192,149,288,144C384,139,480,149,576,176C672,203,768,245,864,266.7C960,288,1056,288,1152,272C1248,256,1344,224,1392,208L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -191,7 +242,7 @@
   <!-- gallery -->
   <section id="gallery" style="background-color: #7eacdd">
     <div class="container  text-center ">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col">
           <h2>Gallery</h2>
         </div>
@@ -373,8 +424,16 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <!-- TILT JS -->
+  <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".car-box"), {
+      max: 25,
+      speed: 400,
+      glare: true
+    });
   <!-- Akhir JS toggle tombol kirim&loading -->
-
+  </script>
 
 </body>
 
