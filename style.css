@@ -1,5 +1,5 @@
 .bg-secondary {
-    background-color: #5a07a7 !important;
+    background-color: #4F728A !important;
 }
 
 .border-succes {
@@ -17,11 +17,30 @@ h1 {
 .card {
     margin-top: 10px;
 }
-
+.pindah {
+    text-decoration: none;
+    color: salmon;
+}
+.pindah:hover {
+    color: lightsteelblue;
+}
+#jumbotron {
+    background-color: #02323F;
+    padding-top: 2rem;
+}
 #projects {
-    background-color: #efeaf3;
+    background-color: #02323F;
 }
 
+#my-cars {
+    background-color: #304945;
+}
+#gallery {
+    background-color: #02323F
+}
+#contact {
+    background-color: #304945;
+}
 p {
     margin-top: 2px;
 }
@@ -30,13 +49,8 @@ h2 {
     padding-top: 3.5rem;
 }
 
-#jumbotron {
-    background-color: #efeaf3;
-    padding-top: 2rem;
-}
-#contact {
-    background-color: #7eacdd;
-}
+
+
 span {
     font-weight: bold;
 }
